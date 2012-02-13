@@ -1,0 +1,6 @@
+This is a folder that contains uploaded image files.
+If you want to deploy this demo to Heroku,
+be careful that **Heroku uses read-only filesystem**,
+which means this demo won't work appropriately.
+
+by @yasulab

@@ -1,0 +1,22 @@
+Simple Remote Controller is a keyboard input transfer system
+that helps your remote presentation, control, and ... whatever!
+
+For example, in the remote presentation, you can easily go to
+the next/prev slide that is displayed on ANOTHER computer by
+typing keys on YOUR computer.
+
+DEMO
+----
+// To be done...
+
+Quick Start
+-----------
+1. On your computer, run sender.rb
+2. On another computer, run receiver.rb
+3. Then, on your computer, start typing any letters.
+4. Check if the typed letters are displayed on another computer.
+5. If yes, you did succeed in remote controll :)
+
+Author
+------
+@yasulab and @hanachin_
