@@ -22,12 +22,13 @@ output = ""
 #output = gets()
 # write into file
 
-while line = STDIN.gets
-  if (/exit/ =~ line)
+while key = STDIN.gets.chop
+  if (/exit/ =~ key)
     break;
   end
-  STDOUT.puts "> #{line}"
-  output_file = File.open(ARGV[0], "a")  
-  output_file.write(line)
+  output = "{\"date\":#{Time.now.to_i}, \"key\":\"#{key}\"}"
+  STDOUT.puts "> #{output}"
+  output_file = File.open(ARGV[0], "w")  
+  output_file.write(output)
   output_file.close
 end
